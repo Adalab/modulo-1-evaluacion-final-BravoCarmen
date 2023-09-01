@@ -20,77 +20,32 @@
     <a href="https://adalab.es/" class="menu"
       ><img src="./assets/images/ico-menu.svg" alt="menu"
     /></a>
-    <header class="header">
-      <div class="hero">
-        <h1 class="hero__title">Comienzos compartidos</h1>
-        <h2 class="hero__subtitle">
-          Todo lo que necesitan para volver al cole con ilusión
-        </h2>
-        <a href="ir abajo" class="arrow-down"
-          ><img src="./assets/images/ico-scroll-down.svg" alt=""
-        /></a>
-      </div>
-    </header>
-    <main>
-      <section class="section1">
-        <p class="section1__subtitle">Historias, moda y ropa deportiva</p>
-        <h2 class="section1__title">Tu tienda de deporte</h2>
-        <p class="section1__text">
-          El deporte nos mantiene en forma. Nos mantiene alerta. Nuestra ropa
-          deportiva para hombre y mujer te ofrece las últimas tecnologías, a la
-          altura de tu rendimiento, para que superes tu mejor marca personal.
-        </p>
-        <a href="#" class="button-shop">Comprar</a>
-      </section>
-      <section class="section2">
-        <p class="section2__title-top">¡Prepáralos con tus marcas favoritas!</p>
-        <h1 class="section2__title">Vuelta al cole</h1>
-        <div class="box">
-          <img
-            src="./assets/images/lpbts-mod05-img01-desk.png"
-            alt="Imagen de una mochila"
-            class="section2_img"
-          />
-          <p class="section2__subtitle">Mochilas escolares</p>
-        </div>
-        <div class="section2__box">
-          <img
-            src="./assets/images/lpbts-mod05-img04-mob.png"
-            alt="Imagen de un escuche"
-            class="section2_img"
-          />
-          <p class="section2__subtitle">Estuches</p>
-        </div>
-        <div class="box">
-          <img
-            src="./assets/images/lpbts-mod05-img03-mob.png"
-            alt="Imagen de una bolsa de deporte"
-            class="section2_img"
-          />
-          <p class="section2__subtitle">Bolsas de deporte</p>
-        </div>
-        <a href="#" class="button-start">Empezar ahora</a>
-      </section>
-    </main>
-    <footer>
-      <a href="ir arriba"><img src="./assets/images/ico-arrow.svg" alt="" /></a>
-      <ul>
+
+    <include src="./partials/header.html"></include>
+    <include src="./partials/section1.html"></include>
+    <include src="./partials/section2.html"></include>
+
+    <footer class="footer">
+      <div class="circle"></div>
+      <ul class="footer__list">
         <li>Zapatillas</li>
         <li>Ropa</li>
         <li>Niño/a</li>
         <li>Destacados</li>
         <li>Tips</li>
       </ul>
-      <ul>
+      <ul class="footer__list">
         <li>Twitter</li>
         <li>Instagram</li>
         <li>Youtube</li>
       </ul>
-      <p>&copy2023</p>
-      <div>
-        <p>We</p>
-        <p>❤︎</p>
-        <p>run</p>
+      <div class="copy">
+        <p>&copy2023</p>
+        <span class="copy__we-love-run">
+          <p>we</p>
+          <p class="copy__we-love-run-heart">❤︎</p>
+          <p>run</p>
+        </span>
       </div>
     </footer>
   </body>

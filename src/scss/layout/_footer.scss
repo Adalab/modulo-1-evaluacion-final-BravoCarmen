@@ -1,0 +1,55 @@
+.footer {
+    height: 43.3rem;
+    background-color: $color-dark;
+    color: $color-white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 2rem;
+    align-items: center;
+    font-family: $font-regular;
+
+    &__list {
+        font-size: 1.6rem;
+        text-transform: uppercase;
+        text-align: center;
+        list-style: none;
+        line-height: 2.6rem;
+    }
+}
+
+ .circle{
+    position: absolute;
+    transform: translateY(-22rem);
+    margin: auto;
+    background-color: white;
+    background-image: url(../images/ico-arrow.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 2.4rem;
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.404);
+
+}
+
+.copy{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.4rem;
+    align-items: center;
+    line-height: 3rem;
+
+&__we-love-run {
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: row;
+    gap: 0.3rem;
+}
+    &__we-love-run-heart {
+        color: $color-dark-green;
+    }
+}
+
+

@@ -27,11 +27,15 @@
       text-align: center;
       padding-bottom: 3rem;
   }
-  .arrow-down {
-      background-color: white;
-      background-size: 3.82rem;
-      padding: 1.5rem 1.3rem;
-      border-radius: 50%;
+  .circle_down {
+    background-color: white;
+    background-image: url(../images/ico-scroll-down.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 2.4rem;
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
       
   }
 

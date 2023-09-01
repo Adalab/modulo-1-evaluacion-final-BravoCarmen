@@ -1,0 +1,45 @@
+.section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 38rem;
+    margin: 0rem 1.5rem;
+    
+        &__subtitle {
+        color: $color-dark-green;
+        text-transform: uppercase;
+        font-family: $font-regular;
+        font-size: 1.4rem;
+        padding-bottom: 0.8rem;
+    
+        }
+        &__title {
+            font-family: $font-titles;
+            font-size: 2.2rem;
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+        }
+    
+        &__text{
+            color: $color-dark;
+            font-family: $font-regular;
+            font-size: 1.8rem;
+            line-height: 3rem;
+            padding-bottom: 4rem;
+    
+        }
+    }
+    
+    .button-shop {
+        color: $color-dark-green;
+        font-family: $font-regular;
+        font-size: 2rem;
+        text-decoration: none;
+        text-align: center;
+        border: solid 2px $color-dark-green;
+        border-radius: 2.25rem;
+        padding: 0.8rem;
+        width: 16rem;
+    }
+    
+    

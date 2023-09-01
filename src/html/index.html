@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bravo: tu tienda de deporte</title>
     <link
-      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
     />
     <link
@@ -17,10 +17,10 @@
   </head>
 
   <body>
+    <a href="https://adalab.es/" class="menu"
+      ><img src="./assets/images/ico-menu.svg" alt="menu"
+    /></a>
     <header class="header">
-      <a href="https://adalab.es/" class="menu"
-        ><img src="./assets/images/ico-menu.svg" alt="menu"
-      /></a>
       <div class="hero">
         <h1 class="hero__title">Comienzos compartidos</h1>
         <h2 class="hero__subtitle">
@@ -32,38 +32,44 @@
       </div>
     </header>
     <main>
-      <section>
-        <p>Hitorias, moda y ropa deportiva</p>
-        <h2>Tu tienda de deporte</h2>
-        <p>
+      <section class="section1">
+        <p class="section1__subtitle">Historias, moda y ropa deportiva</p>
+        <h2 class="section1__title">Tu tienda de deporte</h2>
+        <p class="section1__text">
           El deporte nos mantiene en forma. Nos mantiene alerta. Nuestra ropa
           deportiva para hombre y mujer te ofrece las últimas tecnologías, a la
           altura de tu rendimiento, para que superes tu mejor marca personal.
         </p>
-        <a href="#">Comprar</a>
+        <a href="#" class="button-shop">Comprar</a>
       </section>
       <section class="section2">
-        <p>Prepáralos con tus marcas favoritas</p>
-        <h1>Vuelta al cole</h1>
-        <img
-          src="./assets/images/lpbts-mod05-img01-desk.png"
-          alt="Imagen de una mochila"
-          class="section2_img"
-        />
-        <p>Mochilas escolares</p>
-        <img
-          src="./assets/images/lpbts-mod05-img04-mob.png"
-          alt="Imagen de un escuche"
-          class="section2_img"
-        />
-        <p>Estuches</p>
-        <img
-          src="./assets/images/lpbts-mod05-img03-mob.png"
-          alt="Imagen de una bolsa de deporte"
-          class="section2_img"
-        />
-        <p>Bolsas de deportes</p>
-        <a href="#">Empezar ahora</a>
+        <p class="section2__title-top">¡Prepáralos con tus marcas favoritas!</p>
+        <h1 class="section2__title">Vuelta al cole</h1>
+        <div class="box">
+          <img
+            src="./assets/images/lpbts-mod05-img01-desk.png"
+            alt="Imagen de una mochila"
+            class="section2_img"
+          />
+          <p class="section2__subtitle">Mochilas escolares</p>
+        </div>
+        <div class="section2__box">
+          <img
+            src="./assets/images/lpbts-mod05-img04-mob.png"
+            alt="Imagen de un escuche"
+            class="section2_img"
+          />
+          <p class="section2__subtitle">Estuches</p>
+        </div>
+        <div class="box">
+          <img
+            src="./assets/images/lpbts-mod05-img03-mob.png"
+            alt="Imagen de una bolsa de deporte"
+            class="section2_img"
+          />
+          <p class="section2__subtitle">Bolsas de deporte</p>
+        </div>
+        <a href="#" class="button-start">Empezar ahora</a>
       </section>
     </main>
     <footer>

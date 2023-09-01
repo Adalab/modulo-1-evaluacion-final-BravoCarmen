@@ -1,8 +1,64 @@
 @import 'core/variables';
 @import 'core/reset';
+:root {
+    font-size: 62.5%;
+}
 @import 'components/code';
 @import 'components/links';
-@import 'layout/page';
 @import 'layout/header';
 @import 'layout/footer';
-@import 'pages/index';
+
+
+.menu {
+    position: fixed;
+    background-color: $color-dark-green;
+    padding: 1.3rem;
+    
+
+}
+.hero{
+    background-image: url(../images/cover.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 83%;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50rem 4rem 0rem;
+
+    &__title {
+        font-family: $font-titles;
+        font-size: 3rem;
+        text-align: center;
+        text-transform: uppercase;
+        text-shadow: 0 2px 3px rgba(0, 0, 0, 0.404);
+        padding-bottom: 3rem;
+        
+    }
+    &__subtitle {
+        font-family: $font-regular;
+        font-size: 1.6rem;
+        text-align: center;
+        padding-bottom: 3rem;
+    }
+    .arrow-down {
+        background-color: white;
+        background-size: 3.82rem;
+        padding: 1.5rem 1.3rem;
+        border-radius: 50%;
+        
+        
+    }
+
+}
+
+
+.section2{
+
+    &_img {
+        width: 10.3rem;
+    }
+}

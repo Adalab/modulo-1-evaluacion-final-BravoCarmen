@@ -26,17 +26,17 @@
       font-size: 1.6rem;
       text-align: center;
       padding-bottom: 3rem;
-  }
-  .circle_down {
-    background-color: white;
-    background-image: url(../images/ico-scroll-down.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 2.4rem;
-    width: 4.5rem;
-    height: 4.5rem;
-    border-radius: 50%;
-      
+      ;
   }
 
+  &__circle-down {
+  background-color: white;
+  padding: 1rem;
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 50%;
+  
 }
+
+}
+

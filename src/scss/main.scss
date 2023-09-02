@@ -5,14 +5,10 @@
 }
 @import 'components/code';
 @import 'components/links';
+@import 'layout/menu';
 @import 'layout/header';
 @import 'layout/section1';
 @import 'layout/section2';
 @import 'layout/footer';
 
-.menu {
-    position: fixed;
-    background-color: $color-dark-green;
-    padding: 1.3rem;   
-}
 

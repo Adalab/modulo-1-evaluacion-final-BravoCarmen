@@ -72,5 +72,12 @@
         padding: 0.8rem;
         width: 16rem;
     }
+
+    .button-shop:hover {
+        background-color: $color-dark-green;
+        color: white;
+        scale:108%;
+        transition-duration: 0.3s;
+      }
     
     

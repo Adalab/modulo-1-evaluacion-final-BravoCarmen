@@ -5,20 +5,17 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding-bottom: 3rem;
+    padding-bottom: 5rem;
     align-items: center;
     font-family: $font-regular;
+    flex-wrap: wrap;
 
-    &__circle-up {
-        background-color: white;
-        padding: 1rem;
-        width: 4.5rem;
-        height: 4.5rem;
-        border-radius: 50%;
-        transform: translateY(-3rem);
-        box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.404);
-        
-      }
+    @media all and (min-width:768px){  
+        justify-content: center;
+        padding-bottom: 2rem;
+        height: 24rem;   
+    }
+    
     
     &__list {
         
@@ -28,7 +25,12 @@
         list-style: none;
         line-height: 2.6rem;
         padding-bottom: 2.5rem;
-        
+
+        @media all and (min-width:768px){  
+            text-align: left;
+            line-height: 2.7rem;
+
+            }
     }
 
     &__links{
@@ -38,22 +40,67 @@
     }
 }
 
+
+.box__circle-up {
+    
+    &_arrow {
+        background-color: white;
+        padding: 1rem;
+        width: 4.6rem;
+        height: 4.5rem;
+        border-radius: 50%;
+        transform: translateY(-2.5rem);
+        box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.404);
+
+        @media all and (min-width:768px){  
+        transform: translateY(-3rem);
+        }
+        
+    }
+}  
+
+.box_footer{
+    display: flex;
+    flex-direction: column;
+    
+    @media all and (min-width:768px){  
+      flex-direction: row;
+      justify-content: center;
+      gap: 8rem;
+      }
+      @media all and (min-width:1200px){  
+        gap: 28rem;;  
+          }
+
+    }
+
 .copy{
     display: flex;
     flex-direction: column;
     font-size: 1.4rem;
     align-items: center;
     line-height: 2.5rem;
+    
+    @media all and (min-width:768px){  
+        align-items: flex-start;
+        order: -1;  
+        line-height: 2.6rem;
+        }
 
 &__we-love-run {
     font-size: 1.4rem;
     display: flex;
     flex-direction: row;
     gap: 0.3rem;
+    margin-right: 7rem;
+
 }
     &__we-love-run-heart {
         color: $color-dark-green;
     }
-}
+   
+
+}      
+
 
 

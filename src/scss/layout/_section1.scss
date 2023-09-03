@@ -5,19 +5,42 @@
     height: 38rem;
     margin: 0rem 1.5rem;
     
+    @media all and (min-width:768px){ 
+        height: 33.3rem;
+        margin: 0rem 9rem 0rem 3.7rem;
+        padding-bottom: 1rem;
+    }
+
+    @media all and (min-width:1200px){  
+        height: 33rem;
+        margin: 0rem 16.8rem 0rem 17rem;
+        padding-bottom: 1rem;
+      }
+
         &__subtitle {
         color: $color-dark-green;
         text-transform: uppercase;
         font-family: $font-regular;
         font-size: 1.4rem;
         padding-bottom: 0.8rem;
-    
+
+        @media all and (min-width:768px){ 
+            font-size: 1.6rem;
+        }
+
         }
         &__title {
             font-family: $font-titles;
             font-size: 2.2rem;
             text-transform: uppercase;
             margin-bottom: 1rem;
+
+            @media all and (min-width:768px){ 
+                font-size: 3.2rem;
+            }
+            @media all and (min-width:1200px){  
+                margin-bottom: 2rem;
+              }
         }
     
         &__text{
@@ -26,6 +49,14 @@
             font-size: 1.8rem;
             line-height: 3rem;
             padding-bottom: 4rem;
+
+            @media all and (min-width:768px){ 
+                font-size: 2rem;
+                padding-bottom: 2rem;
+            }
+            @media all and (min-width:1200px){  
+                padding-bottom: 4rem;
+              }
     
         }
     }

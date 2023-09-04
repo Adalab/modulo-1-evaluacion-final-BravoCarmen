@@ -28,8 +28,4 @@ Visual Studio Code: Html y CSS Sass
 
 - Carmen Bravo
 
-
-## Demo
-
-Insert gif or link to demo
-
+Gracias por verlo! :)

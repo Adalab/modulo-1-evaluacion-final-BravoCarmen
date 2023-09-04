@@ -42,6 +42,13 @@
 
 
 .box__circle-up {
+
+    animation-name: beats;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+
     
     &_arrow {
         background-color: white;
@@ -50,20 +57,25 @@
         height: 4.5rem;
         border-radius: 50%;
         transform: translateY(-2.5rem);
-        box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.404);
+        box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.404);    
 
         @media all and (min-width:768px){  
         transform: translateY(-3rem);
         }
         
     }
+    
 }  
 
-// .box__circle-up:hover {
-//     animation:
-//     move-top 3s linear,
-//     change-color 5s linear;
-//   }
+        
+@keyframes beats {
+    from {
+        transform: scale(100%);
+    }
+    to {
+        transform: scale(110%);
+    }
+}
 
 .box_footer{
     display: flex;
